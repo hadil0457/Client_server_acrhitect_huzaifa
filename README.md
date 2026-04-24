@@ -169,10 +169,4 @@ Using filters means you write the logging logic once and it automatically applie
 
 Filters are also a "cross-cutting concern" - logging isnt really related to the business logic of managing rooms or sensors. Keeping it separate in a filter class means your controller code stays clean and focused on what it actually does. Plus filters run even if the request fails before hitting your controller (like a 415 from a wrong content type), so you get more complete logging.
 
-#   C l i e n t - S e r v e r - A r c h i t e c t u r e - C W 1  
- #   C l i e n t - S e r v e r - A r c h i t e c t  
- #   C l i e n t - S e r v e r - A r c h i t e c t  
- #   C l i e n t - S e r v e r - A r c h i t e c t  
- #   r e p o  
- #   r e p o 1 2  
- 
+#
